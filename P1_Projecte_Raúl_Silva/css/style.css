@@ -1,0 +1,199 @@
+/* ======================= GENERAL PARA TODA LA PAGINA ======================= */
+body{ /* TODO EL BODY */
+    background-color: #000000; /* Color de fondo */   
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px; /* Un poco de espacio dentro de las celdas */
+    }
+    header{
+    background-color:rgb(134, 134, 134);
+    border: 2px solid black;
+    padding: 15px; /* Para dar espacions en los lados y arriba y abajo */
+    border-radius: 8px; /* Bordes redondeados */    
+    }
+    div{ /* CONTENEDORES, RECUADROS */
+    background-color:rgb(134, 134, 134);
+    border: 2px solid black;
+    padding: 15px; /* Para dar espacions en los lados y arriba y abajo */
+    border-radius: 8px; /* Bordes redondeados */
+    }
+/* ======================= ini TABLAS ======================= */
+table { /* TODAS LAS TABLAS */
+    border: 2px solid rgb(255, 255, 255); /* Borde blanco de 2px alrededor de la tabla */
+    background-color: #333; /* Fondo oscuro para la tabla */
+    border-collapse: collapse; /* Las celdas de la tabla se fusionan en un solo borde */
+    width: 100%; /* La tabla ocupa el 100% del ancho disponible */
+    height: auto; /* La altura será automática para ajustarse al contenido */
+}
+
+td {
+    border: 1px solid rgb(255, 255, 255); /* Borde de las celdas */
+    font-weight: bold; /*Leta en negrita*/
+    color: white; /*Color de las letras*/
+    padding: 15px; /* Un poco de espacio dentro de las celdas */
+    text-align: center; /* Centra el contenido dentro de las celdas */
+    vertical-align: middle; /* Alinea verticalmente el contenido */
+    font-size: 40px; /*Medida del texto*/    
+}
+td img {
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    max-height: 200px; /* Limita la altura máxima de las imágenes */
+    object-fit: contain; /* Asegura que las imágenes mantengan sus proporciones */
+}
+/* ======================= fin TABLAS ======================= */
+.tituloproductos{
+    text-shadow: 4px 4px 10px #fffefe; /* Sombra del texto */
+    font-size: 38px;  
+}
+.Volver{
+    background-color:rgb(252, 131, 131);
+    border: 2px solid black;
+    padding: 15px; /* Para dar espacions en los lados y arriba y abajo */
+    border-radius: 8px; /* Bordes redondeados */ 
+    text-shadow: 4px 4px 10px #ff3f3f; /* Sombra del texto */
+    box-shadow: 0 0 50px #ff1616; /* Resplandor constante SOMBRA BLANCA*/
+    border: 0px solid black;
+}
+.precios{
+    border-radius: 40px;
+}
+
+.banner-image{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;  /* Bordes redondeados si lo deseas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra difusa en los bordes */
+}
+
+footer{
+background-color:rgb(134, 134, 134);
+border: 2px solid black;
+padding: 15px; /* Para dar espacions en los lados y arriba y abajo */
+border-radius: 8px; /* Bordes redondeados */  
+}
+.tablaprecios { /*ES UNA TABLA*/
+    border: 0px solid; /* Borde de las celdas */
+    border-radius: 20px; /* Bordes redondeados */
+    background-color:rgb(16, 196, 0);
+}
+.tablaprecios tr td{ /*En esta tabla los tr y los td: */
+    border: 0px solid; /* Borde de las celdas */
+    
+}
+.tresimagenes tr td{ /*En esta tabla los tr y los td: */
+    border: 0px solid; /* Borde de las celdas */
+    
+}
+.tresimagenes { /*ES UNA TABLA*/
+    border: 0px solid; /* Borde de las celdas */
+    border-radius: 20px; /* Bordes redondeados */
+}
+a { /* A HREF */
+margin: 30px; /* Agregar un margen de 10px */
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-weight: bold; 
+font-size: 30px; 
+}
+p {
+font-size: 25px;
+}
+.pproducto{
+font-size: 15px;   
+}
+img {
+    object-fit: contain; /* Asegura que la imagen se ajusta dentro de la celda sin distorsionarse */
+    border-radius: 8px; /* Bordes redondeados */
+}
+.menu h2{
+font-weight: bold; 
+font-size: 45px;
+text-shadow: 4px 4px 10px #000000a1; /* Sombra del texto */
+font-family: 'Times New Roman', Times, serif;
+}
+.menu {
+border-radius: 100px; /* Bordes redondeados */
+box-shadow: 0 0 30px #ffffff; /* Resplandor constante SOMBRA BLANCA*/
+border: 0px solid;
+}
+/* ======================= Ini (COMPARATIVAS) Eleeccion ======================= */
+#eleccion { /* Div */
+    max-width: 1000px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ffffff; /* Resplandor constante SOMBRA BLANCA*/
+    padding: 20px;
+}
+select {
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+/* Estilo para el botón */
+button#comparativ {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 0 20px #2289ff; /* Resplandor constante SOMBRA BLANCA*/
+}
+/* ======================= Fin (COMPARATIVAS) Eleeccion ======================= */
+
+/* ======================= Ini (PAGINA PRINCIPAL) Contactanos ======================= */
+.formulario-container {
+    width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
+    max-width: 1800px; /* Limita el ancho máximo*/
+    margin: 20px auto; /* Centra el formulario horizontalmente y deja espacio vertical */
+    padding: 20px; /* Rellena el interior del contenedor */
+    background-color: rgb(0, 34, 109); /* Fondo para el formulario entero */
+    border-radius: 30px; /* Bordes redondeados */
+    box-shadow: 0 0 50px #7790ff; /* Resplandor constante SOMBRA BLANCA*/
+    border: 0px solid; /* SIN BORDES */
+    box-sizing: border-box; /* Se ajusta los bordes dentro del div para que no se salga del cuadradp */
+}
+.formulario-container h2 { /*TITULO*/
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px; /* Espacio inferior para separar del contenido */
+    color: #ffffff; /* Color de texto gris oscuro */
+    text-align: center; /* Centra el texto del título */
+    font-size: 50px;
+    text-shadow: 4px 4px 10px #ffffff; /* Sombra del texto */
+}
+.formulario-container input, /*Todos los campos de entrada*/
+.formulario-container textarea, /*El campo de texto*/
+.formulario-container button { /*Boton de enviar*/
+    width: 100%; /* Los campos ocupan todo el ancho del contenedor */
+    margin-bottom: 15px; /* Espacio entre campos */
+    padding: 10px; /* Relleno interno para hacer más cómodos los campos */
+    border-radius: 12px; /* Bordes ligeramente redondeados */
+    font-size: 25px; /* Tamaño de fuente estándar */
+    box-sizing: border-box; /* Se ajusta los bordes dentro del div para que no se salga del cuadradp */
+}
+/* Estilo específico para el botón */
+.formulario-container button {
+    background-color: #007BFF; /* Fondo azul para el botón */
+    color: white; /* Texto blanco */
+    font-size: 25px; /* Tamaño de la fuente del botón */
+    cursor: pointer; /* Cambia el cursor al icono de "mano" */
+    border: none; /* Elimina bordes adicionales del botón */
+    box-shadow: 0 0 25px #7790ff; /* Resplandor constante SOMBRA BLANCA*/
+}
+/* Efecto hover para el botón (cuando el usuario pasa el cursor encima) */
+.formulario-container button:hover {
+    background-color: #0056b3; /* Azul más oscuro al hacer hover */
+}
+/* ======================= Fin (PAGINA PRINCIPAL) Contactanos ======================= */

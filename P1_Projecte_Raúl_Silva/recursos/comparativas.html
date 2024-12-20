@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Head Iniciado-->
+<head>
+    <title>Mi pagina web - Raúl Silva</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css" type="text/css"> <!--Enlazamos con el style.css-->
+    
+    <!--Style Iniciado-->
+    <style> 
+
+    </style>
+    <!--Style Finalizado-->
+
+</head> 
+<!--Head Finalizado-->
+
+<!--Body Iniciado-->
+<body>
+    <div class="Volver">
+        <a href="../index.html">Volver Pagina Principal</a>
+        </div>
+        <br>
+        <br>
+    
+        <header>
+            <img class="banner-image" src="../img/Banner-ordenador.jpg" alt="Banner mostrando un ordenador para el sitio web">
+        </header>
+    <br>
+    <div>
+        <h1 class="tituloproductos">Comparativas</h1>
+    </div>
+    <br>
+    <table>
+        <!-- Fila 1 con 2 celdas -->
+        <tr>
+            <td><img src="../img/Ordenador.png" alt="Ordenador para trabajo"></td>
+            <td>
+                <p class="pproducto">  
+                    El ordenador de la <u>izquierda</u>, se adapta mas para el entorno de<br>
+                    trabajo en el que tu estes haciendo tareas, proyectos, etc...<br>
+                    Pero el ordenador de la <u>derecha</u> se centra mas solo para jugar,
+                    a juegos, editar videos de alta calidad...
+                </p>
+            </td>
+            <td><img src="../img/OrdenadorGamer.png" alt="Ordenador para juegos"></td>
+        </tr>
+        <tr>
+            <td><img src="../img/OrdenadorGamer.png" alt="Ordenador para juegos"></td>
+
+            <td>
+                <p class="pproducto">  
+                    El ordenador de la <u>izquierda</u> se centra mas en el entorno de juegos, mayor<br>
+                    calidad y fluidez de la resolucion pero el ordenador de la <u>derecha</u> es un ordenador<br>
+                    capacitado para las dos cosas tanto en relacion de trabajos, proyectos, documentos y tambien<br>
+                    lo relacionado con los juegos, videos, calidad, fluidez, etc...<br>
+                </p>
+            </td>
+            <td><img src="../img/OrdenadorGamerTrabajo.png" alt="Ordenador para trabajo y juegos"></td>
+        </tr>
+    </table>
+    <br>
+<div id="eleccion">
+    
+    <h1>¿Con que eleccion te quedas?</h1>
+    <p>Hasta el momento te vamos a orientar de cual ordenador y gustos te quedarias.</p>
+<form>
+    <label for="opciones" style="font-size: 20px;" >Que relacion buscas?</label><br><br>
+    <select id="opciones" name="opciones">
+        <option value="opcion1">Trabajo</option>
+        <option value="opcion2">Juegos</option>
+        <option value="opcion3">Las dos</option>
+    </select>
+    <br>
+    <br>
+    <button id="comparativ" type="submit">Enviar</button> <!-- Botón para enviar el formulario -->
+</form>
+</div>
+</body>
+<!--Body Finalizado-->
